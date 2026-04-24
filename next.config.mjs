@@ -16,6 +16,16 @@ const nextConfig = {
   images: {
     remotePatterns: imageHosts,
     minimumCacheTTL: 60,
+  },
+
+  webpack(config) {
+config.module.rules.push({
+      test: /\.(jsx|tsx)$/,
+      exclude: [/node_modules/],
+      use: [{ loader: '@dhiwise/component-tagger/nextLoader' }],
+    });
+
+    return config;
   }
 };
 export default nextConfig;

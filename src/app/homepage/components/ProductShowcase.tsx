@@ -86,17 +86,17 @@ const products = [
   category: "hoparlor"
 },
 {
-  id: "xiaomi-redmi-watch-5",
-  name: "Xiaomi Redmi Watch 5",
+  id: "samsung-galaxy-s23-ultra-watch",
+  name: "Samsung Galaxy S23 Ultra Uyumlu Akıllı Saat Konuşma Özellikli Watch 45mm Amoled Ekran",
   tagline: "Akıllı Saat",
   price: 1999,
   originalPrice: 2799,
   rating: 4.8,
   reviews: 2105,
   badge: "Trend",
-  image: "/assets/images/shopping-1777058806316.webp",
-  imageAlt: "Xiaomi Redmi Watch 5 akıllı saat, büyük ekran ve gelişmiş sağlık sensörleri",
-  features: ["SpO2 Ölçüm", "14 Gün Pil", "AMOLED Ekran"],
+  image: "/assets/images/shopping__8_-1777063662879.webp",
+  imageAlt: "Samsung Galaxy S23 Ultra Uyumlu Akıllı Saat Konuşma Özellikli Watch 45mm Amoled Ekran",
+  features: ["Konuşma Özellikli", "45mm AMOLED Ekran", "Samsung Uyumlu"],
   accentColor: "#a78bfa",
   accentBg: "rgba(167,139,250,0.08)",
   category: "akilli-saatler"
